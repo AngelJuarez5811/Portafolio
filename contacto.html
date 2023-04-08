@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__navegacion">
+            <nav class="header__navegacion__nav">
+                <ul class="header__navegacion__nav--ul">
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__main">
+            <h1>
+                Contacto
+            </h1>
+        </div>
+    </header>
+    <main>
+        <form action="https://formsubmit.co/estudiosjuarez22@gmail.com" method="post">
+            <label for="name">Nombre: </label>
+            <input type="text" name="name">
+            <label for="email">Correo Electronico: </label>
+            <input type="email" name="email">
+            <label for="subject">Asunto: </label>
+            <input type="text" name="subject">
+            <label for="comments">Comentario: </label>
+            <textarea name="comments" cols="15" rows="5"></textarea>
+
+            <input type="submit" value="Enviar">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </main>
+    <aside class="aside">
+        <div class="aside__redes-sociales">
+            <img src="recursos/img/facebook.png" alt="Facebook">
+            <img src="recursos/img/instagram.png" alt="Instagram">
+            <img src="recursos/img/youtube.png" alt="YouTube">
+        </div>
+    </aside>
+    <footer class="footer">
+        <p>copyright© Ángel Juárez</p>
+        <p>version 1.0</p>
+    </footer>
+</body>
+</html>
