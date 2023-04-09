@@ -300,4 +300,8 @@ figure img{
         width: 95%;
         height: 50%;
     }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
 }
