@@ -1,0 +1,303 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/wickedbackground.png);
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.header__main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header__main span{
+    color: #e2e2e2;
+}
+
+.header__main h1{
+    margin-bottom: 100px;
+    font-size: 48px;
+    color: #242424;
+    
+}
+
+.header__main--link{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5vh;
+    align-items: center;
+}
+
+.header__main--link .clave{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #87aeff;
+    color: #242424;
+}
+
+#titulo span{
+    display: inline-block;
+    animation: typing 2s steps(40, end) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    margin-top: 20px;
+    font-size: 52px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
+}
+
+.main{
+    width: 70%;
+    margin: auto;
+}
+
+.main__sobre-mi--informacion{
+    width: 100%;
+    height: 100%;
+}
+
+.main__sobre-mi--informacion-titulo{
+    text-align: center;
+    font-size: 32px;
+    color: #242424;
+}
+
+.main__sobre-mi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 100px;
+}
+
+.main__sobre-mi--informacion-x{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.main__sobre-mi--informacion-sobreMi, .main__sobre-mi--informacion-detalles{
+    width: 40%;
+    height: 50%;
+}
+
+.main__sobre-mi--informacion-sobreMi h3, .main__sobre-mi--informacion-detalles h3{
+    text-align: center;
+    color: #242424;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.main__sobre-mi--informacion-sobreMi{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.main__sobre-mi--informacion-detalles{
+    text-align: center;
+}
+
+.main__habilidades--informacion{
+    width: 100%;
+    height: 100%;
+}
+
+.main__habilidades--informacion-titulo{
+    text-align: center;
+    font-size: 32px;
+    color: #242424;
+}
+
+.main__habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.main__habilidades--informacion-x{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.main__habilidades--informacion-tecnologias{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__habilidades--informacion-tecnologias, .main__habilidades--informacion-lenguas{
+    width: 40%;
+    height: 40%;
+}
+
+.main__habilidades--informacion-tecnologias h3, .main__habilidades--informacion-lenguas h3{
+    text-align: center;
+    color: #242424;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.main__habilidades--informacion-tecnologias h4, .main__habilidades--informacion-lenguas h4{
+    text-align: center;
+    color: #242424;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.main__habilidades--informacion-tecnologias-x{
+    display: flex;
+    flex-direction: column;
+}
+
+.x{
+    display: flex;
+    justify-content: space-between;
+}
+
+.x ul{
+    display: flex;
+}
+
+.x ul li{
+    list-style: none;
+}
+
+.tuno .uno, .tdos .dos, .ttres .tres, .tcuatro .cuatro{
+    color: #87aeff;
+}
+
+.luno .unol, .ldos .dosl{
+    color: #87aeff;
+}
+
+.main_proyectos--informacion{
+    width: 100%;
+    height: 100%;
+}
+
+.main__proyectos--informacion-titulo{
+    text-align: center;
+    font-size: 32px;
+    color: #242424;
+}
+
+.main__proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.main__proyectos--informacion-x{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.main_proyectos--informacion-proyecto1{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main_proyectos--informacion h3{
+    text-align: center;
+    color: #242424;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+figure{
+    text-align: center;
+}
+
+figure a{
+    color: #242424;
+}
+
+figure img{
+    margin-bottom: 15px;
+    width: 512px;
+}
+
+@media screen and (max-width: 820px){
+    .main__sobre-mi--informacion-x{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .main__sobre-mi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    .main__sobre-mi--informacion-sobreMi, .main__sobre-mi--informacion-detalles{
+        margin-top: 50px;
+        width: 80%;
+        height: 50%;
+    }
+    .main__habilidades--informacion-x{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    .main__habilidades--informacion-tecnologias, .main__habilidades--informacion-lenguas{
+        width: 80%;
+        height: 50%;
+        margin-top: 60px;
+    }.main__habilidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 100px;
+    }figure img{
+        margin-bottom: 15px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .main__sobre-mi--informacion-sobreMi, .main__sobre-mi--informacion-detalles{
+        margin-top: 60px;
+        width: 95%;
+        height: 50%;
+    }
+}

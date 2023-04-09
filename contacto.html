@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="recursos/css/contacto.css">
+    <link rel="stylesheet" href="recursos/css/global.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -30,7 +34,7 @@
             </h1>
         </div>
     </header>
-    <main>
+    <main class="main">
         <form action="https://formsubmit.co/estudiosjuarez22@gmail.com" method="post">
             <label for="name">Nombre: </label>
             <input type="text" name="name">
@@ -43,20 +47,16 @@
 
             <input type="submit" value="Enviar">
 
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500">
             <input type="hidden" name="_captcha" value="false">
         </form>
     </main>
     <aside class="aside">
         <div class="aside__redes-sociales">
-            <img src="recursos/img/facebook.png" alt="Facebook">
-            <img src="recursos/img/instagram.png" alt="Instagram">
-            <img src="recursos/img/youtube.png" alt="YouTube">
+            <a href=""><img src="recursos/img/facebook.png" alt="Facebook" width="48px"></a>
+            <a href=""><img src="recursos/img/instagram.png" alt="Instagram" width="48px"></a>
+            <a href=""><img src="recursos/img/youtube.png" alt="YouTube" width="48px"></a>
         </div>
     </aside>
-    <footer class="footer">
-        <p>copyright© Ángel Juárez</p>
-        <p>version 1.0</p>
-    </footer>
 </body>
 </html>
