@@ -37,26 +37,27 @@
     <main class="main">
         <form action="https://formsubmit.co/estudiosjuarez22@gmail.com" method="post">
             <label for="name">Nombre: </label>
-            <input type="text" name="name">
+            <input type="text" name="name" id="name">
             <label for="email">Correo Electronico: </label>
-            <input type="email" name="email">
+            <input type="email" name="email" id="email">
             <label for="subject">Asunto: </label>
-            <input type="text" name="subject">
+            <input type="text" name="subject" id="subject">
             <label for="comments">Comentario: </label>
-            <textarea name="comments" cols="15" rows="5"></textarea>
+            <textarea name="comments" cols="15" rows="5" id="comments"></textarea>
 
             <input type="submit" value="Enviar">
-
             <input type="hidden" name="_next" value="https://angeljuarezportafolio.netlify.app/contacto.html">
             <input type="hidden" name="_captcha" value="false">
+
         </form>
     </main>
     <aside class="aside">
         <div class="aside__redes-sociales">
-            <a href=""><img src="recursos/img/facebook.png" alt="Facebook" width="48px"></a>
-            <a href=""><img src="recursos/img/instagram.png" alt="Instagram" width="48px"></a>
-            <a href=""><img src="recursos/img/youtube.png" alt="YouTube" width="48px"></a>
+            <a href=""><img src="recursos/img/facebook.png" alt="Facebook" width="48px" id="img1"><p id="p1">Facebook</p></a>
+            <a href=""><img src="recursos/img/instagram.png" alt="Instagram" width="48px" id="img2"><p id="p2">Instagram</p></a>
+            <a href=""><img src="recursos/img/youtube.png" alt="YouTube" width="48px" id="img3"><p id="p3">YouTube</p></a>
         </div>
     </aside>
+    <script src="recursos/js/main.js"></script>
 </body>
 </html>

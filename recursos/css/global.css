@@ -81,11 +81,26 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 @media screen and (max-width: 820px){
     .header__navegacion__nav--ul{
         width: 50%;
     }
+}
+
+#p1, #p2, #p3{
+    font-size: 18px;
+    position: relative;
+    left: 55px;
+    top: -39px;
+    display: none;
+}
+
+a{
+    color: #242424;
+    width: 60px;
+    text-decoration: none;
+    text-align: center;
 }
