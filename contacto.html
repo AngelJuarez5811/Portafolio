@@ -37,13 +37,13 @@
     <main class="main">
         <form action="https://formsubmit.co/estudiosjuarez22@gmail.com" method="post">
             <label for="name">Nombre: </label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" class="input" required>
             <label for="email">Correo Electronico: </label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" class="input" required>
             <label for="subject">Asunto: </label>
-            <input type="text" name="subject" id="subject">
+            <input type="text" name="subject" id="subject" class="input" required>
             <label for="comments">Comentario: </label>
-            <textarea name="comments" cols="15" rows="5" id="comments"></textarea>
+            <textarea name="comments" cols="15" rows="5" id="comments" required></textarea>
 
             <input type="submit" value="Enviar">
             <input type="hidden" name="_next" value="https://angeljuarezportafolio.netlify.app/contacto.html">
@@ -59,5 +59,6 @@
         </div>
     </aside>
     <script src="recursos/js/main.js"></script>
+    <script src="recursos/js/form.js"></script>
 </body>
 </html>
